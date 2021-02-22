@@ -16,7 +16,9 @@
 .title {
   color: var(--primary-text-color);
 }
-
+.text {
+  color: var(--secondary-text-color);
+}
 /* шапка */
 .top {
   background-color: var(--white-color);
@@ -24,16 +26,19 @@
 .logo {
   color: var(--accent-text-color);
 }
-.link:hover,
-.top-link:hover,
-.link:focus,
-.top-link:focus {
+.site-nav .link:hover,
+.contact-nav .link:hover,
+.site-nav .link:focus,
+.contact-nav .link:focus {
   color: var(--accent-text-color);
 }
-.link {
+.site-nav .link {
   color: var(--primary-text-color);
 }
-.top-link {
+.site-nav .link.current {
+  color: var(--accent-text-color);
+}
+.contact-nav .link {
   color: var(--secondary-text-color);
 }
 
@@ -49,9 +54,7 @@ button {
   color: var(--white-color);
 }
 /* особенности */
-.features p {
-  color: var(--secondary-text-color);
-}
+
 /* чем мы занимаемся */
 .work-title {
   color: var(--primary-text-color);
@@ -60,9 +63,7 @@ button {
 .team {
   background-color: var(--background-color);
 }
-.team p {
-  color: var(--secondary-text-color);
-}
+
 /* подвал */
 .bot {
   background-color: #2f303a;
