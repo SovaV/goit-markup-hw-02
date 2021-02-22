@@ -1,0 +1,75 @@
+/* цвет основного текста #212121 */
+/* вторичный цвет текста #757575 */
+/* акцент #2196F3 */
+/* белый #FFFFFF */
+/* вторичный цвет фона #F5F4FA */
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-text-color: #2196f3;
+  --white-color: #ffffff;
+  --background-color: #f5f4fa;
+}
+.list {
+  list-style: none;
+}
+.title {
+  color: var(--primary-text-color);
+}
+
+/* шапка */
+.top {
+  background-color: var(--white-color);
+}
+.logo {
+  color: var(--accent-text-color);
+}
+.link:hover,
+.top-link:hover,
+.link:focus,
+.top-link:focus {
+  color: var(--accent-text-color);
+}
+.link {
+  color: var(--primary-text-color);
+}
+.top-link {
+  color: var(--secondary-text-color);
+}
+
+/* герой */
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: var(--white-color);
+}
+button {
+  background-color: var(--accent-text-color);
+  color: var(--white-color);
+}
+/* особенности */
+.features p {
+  color: var(--secondary-text-color);
+}
+/* чем мы занимаемся */
+.work-title {
+  color: var(--primary-text-color);
+}
+/* команда */
+.team {
+  background-color: var(--background-color);
+}
+.team p {
+  color: var(--secondary-text-color);
+}
+/* подвал */
+.bot {
+  background-color: #2f303a;
+}
+.maps {
+  color: var(--white-color);
+}
+.bot-link {
+  color: rgba(255, 255, 255, 0.6);
+}
