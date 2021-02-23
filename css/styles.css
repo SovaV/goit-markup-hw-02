@@ -3,6 +3,8 @@
 /* акцент #2196F3 */
 /* белый #FFFFFF */
 /* вторичный цвет фона #F5F4FA */
+
+/* Общие */
 :root {
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
@@ -11,53 +13,85 @@
   --background-color: #f5f4fa;
   --secondary-button-bgc: #188ce8;
 }
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-text-color);
+  letter-spacing: 0.06em;
+}
 .list {
   list-style: none;
-}
-.title {
-  color: var(--primary-text-color);
 }
 .text {
   color: var(--secondary-text-color);
 }
+
 /* кнопка */
 .button {
   background-color: var(--background-color);
   color: var(--primary-text-color);
+  font-family: inherit;
+}
+.button:hover,
+.button:focus {
+  background-color: var(--accent-text-color);
+  color: var(--white-color);
 }
 .button.primary {
   background-color: var(--accent-text-color);
   color: var(--white-color);
+  font-family: inherit;
 }
 .button.primary:hover,
 .button.primary:focus {
   background-color: var(--secondary-button-bgc);
 }
-.filters. button.current {
+.filters .button.current {
   background-color: var(--accent-text-color);
   color: var(--white-color);
 }
-/* шапка */
-.top {
-  background-color: var(--white-color);
-}
+/* Логотип */
 .logo {
   color: var(--accent-text-color);
+}
+.top-logo {
+  color: #000000;
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.bot-logo {
+  color: var(--white-color);
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+/* шапка */
+.site-nav .link {
+  color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.site-nav .link.current {
+  color: var(--accent-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.contact-nav .link {
+  color: var(--secondary-text-color);
 }
 .site-nav .link:hover,
 .contact-nav .link:hover,
 .site-nav .link:focus,
 .contact-nav .link:focus {
   color: var(--accent-text-color);
-}
-.site-nav .link {
-  color: var(--primary-text-color);
-}
-.site-nav .link.current {
-  color: var(--accent-text-color);
-}
-.contact-nav .link {
-  color: var(--secondary-text-color);
 }
 
 /* герой */
@@ -71,9 +105,7 @@
 /* особенности */
 
 /* чем мы занимаемся */
-.work-title {
-  color: var(--primary-text-color);
-}
+
 /* команда */
 .team {
   background-color: var(--background-color);
