@@ -16,7 +16,11 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--primary-text-color);
-  letter-spacing: 0.06em;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
 }
 .list {
   list-style: none;
@@ -30,6 +34,12 @@ body {
   background-color: var(--background-color);
   color: var(--primary-text-color);
   font-family: inherit;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  cursor: pointer;
 }
 .button:hover,
 .button:focus {
@@ -40,6 +50,13 @@ body {
   background-color: var(--accent-text-color);
   color: var(--white-color);
   font-family: inherit;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 .button.primary:hover,
 .button.primary:focus {
@@ -56,6 +73,7 @@ body {
 .top-logo {
   color: #000000;
   font-family: 'Raleway', sans-serif;
+  font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -63,6 +81,7 @@ body {
 .bot-logo {
   color: var(--white-color);
   font-family: 'Raleway', sans-serif;
+  font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -79,13 +98,14 @@ body {
 }
 .site-nav .link.current {
   color: var(--accent-text-color);
+}
+.contact-nav .link {
+  color: var(--secondary-text-color);
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-}
-.contact-nav .link {
-  color: var(--secondary-text-color);
 }
 .site-nav .link:hover,
 .contact-nav .link:hover,
@@ -100,9 +120,39 @@ body {
 }
 .hero-title {
   color: var(--white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 /* особенности */
+
+.features .title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.1;
+  text-transform: uppercase;
+}
+.features .text {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* Наши проекты */
+.project .title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.project .text {
+  font-size: 16px;
+  line-height: 1.9;
+}
 
 /* чем мы занимаемся */
 
@@ -120,4 +170,8 @@ body {
 }
 .bot-link {
   color: rgba(255, 255, 255, 0.6);
+}
+.bot-nav {
+  font-size: 14px;
+  line-height: 1.7;
 }
