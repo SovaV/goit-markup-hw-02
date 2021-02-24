@@ -4,7 +4,7 @@
 /* белый #FFFFFF */
 /* вторичный цвет фона #F5F4FA */
 
-/* Общие */
+/* ======== ОБЩИЕ ======== */
 
 :root {
   --primary-text-color: #212121;
@@ -18,10 +18,10 @@ body {
   font-family: 'Roboto', sans-serif;
   color: var(--primary-text-color);
   font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 1.6;
-  letter-spacing: 0.03em;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .list {
   list-style: none;
@@ -30,7 +30,10 @@ body {
   color: var(--secondary-text-color);
 }
 
-/* кнопка */
+.link {
+  text-decoration: none;
+}
+/* ======== КНОПКА ======== */
 
 .button {
   background-color: var(--background-color);
@@ -69,50 +72,40 @@ body {
   color: var(--white-color);
 }
 
-/* Логотип */
+/* ======== ЛОГОТИП ======== */
 
 .logo {
   color: var(--accent-text-color);
-}
-.top-logo {
-  color: #000000;
-  font-family: 'Raleway', sans-serif;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.19;
-}
-.bot-logo {
-  color: var(--white-color);
   font-family: 'Raleway', sans-serif;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-}
-
-/* шапка */
-
-.site-nav .link {
-  color: var(--primary-text-color);
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
   text-decoration: none;
 }
+
+.accent {
+  color: #000000;
+}
+
+.bot-accent {
+  color: var(--white-color);
+}
+
+/* ======== ШАПКА ======== */
+
+.top .link {
+  color: var(--primary-text-color);
+}
+
 .site-nav .link.current {
   color: var(--accent-text-color);
 }
+
 .contact-nav .link {
   color: var(--secondary-text-color);
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  text-decoration: none;
 }
+
 .site-nav .link:hover,
 .contact-nav .link:hover,
 .site-nav .link:focus,
@@ -139,18 +132,22 @@ body {
 
 .features .title {
   font-weight: bold;
-  font-size: 14px;
   line-height: 1.1;
+  font-size: 14px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .features .text {
+  font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 
 /* Наши проекты */
 
 .project .title {
+  color: var(--primary-text-color);
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
@@ -169,6 +166,7 @@ body {
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* Наша команда */
@@ -181,38 +179,40 @@ body {
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 .team .title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 .team .text {
+  font-weight: normal;
   line-height: 1.2;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 /* подвал */
 
 .bot {
   background-color: #2f303a;
 }
+.bot-nav {
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
 .maps {
   color: var(--white-color);
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.7;
   text-decoration: none;
 }
 .bot-nav .link {
   color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
 }
-.bot-nav {
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.7;
-}
+
 .bot-nav .link:hover,
 .bot-nav .link:focus {
   color: var(--accent-text-color);
