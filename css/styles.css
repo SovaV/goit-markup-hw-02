@@ -5,6 +5,7 @@
 /* вторичный цвет фона #F5F4FA */
 
 /* Общие */
+
 :root {
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
@@ -30,6 +31,7 @@ body {
 }
 
 /* кнопка */
+
 .button {
   background-color: var(--background-color);
   color: var(--primary-text-color);
@@ -66,7 +68,9 @@ body {
   background-color: var(--accent-text-color);
   color: var(--white-color);
 }
+
 /* Логотип */
+
 .logo {
   color: var(--accent-text-color);
 }
@@ -76,7 +80,6 @@ body {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 .bot-logo {
   color: var(--white-color);
@@ -88,6 +91,7 @@ body {
 }
 
 /* шапка */
+
 .site-nav .link {
   color: var(--primary-text-color);
   font-style: normal;
@@ -115,6 +119,7 @@ body {
 }
 
 /* герой */
+
 .hero {
   background-color: #2f303a;
 }
@@ -142,6 +147,7 @@ body {
 }
 
 /* Наши проекты */
+
 .project .title {
   font-weight: bold;
   font-size: 18px;
@@ -156,22 +162,50 @@ body {
 
 /* чем мы занимаемся */
 
-/* команда */
+.work-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* Наша команда */
+
 .team {
   background-color: var(--background-color);
 }
-
+.team-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+.team .title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
+.team .text {
+  line-height: 1.2;
+  text-align: center;
+}
 /* подвал */
+
 .bot {
   background-color: #2f303a;
 }
 .maps {
   color: var(--white-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
 }
 .bot-link {
   color: rgba(255, 255, 255, 0.6);
 }
 .bot-nav {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.7;
 }
