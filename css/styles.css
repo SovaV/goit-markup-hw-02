@@ -99,6 +99,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .site-nav .link.current {
   color: var(--accent-text-color);
@@ -110,6 +111,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 .site-nav .link:hover,
 .contact-nav .link:hover,
@@ -200,12 +202,18 @@ body {
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
+  text-decoration: none;
 }
-.bot-link {
+.bot-nav .link {
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 .bot-nav {
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
+}
+.bot-nav .link:hover,
+.bot-nav .link:focus {
+  color: var(--accent-text-color);
 }
