@@ -43,6 +43,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
+  letter-spacing: 0.03em;
   text-align: center;
   cursor: pointer;
 }
@@ -113,7 +114,7 @@ body {
   color: var(--accent-text-color);
 }
 
-/* герой */
+/* ======== ГЕРОЙ ======== */
 
 .hero {
   background-color: #2f303a;
@@ -128,7 +129,7 @@ body {
   text-transform: uppercase;
 }
 
-/* особенности */
+/* ======== ОСОБЕННОСТИ ======== */
 
 .features .title {
   font-weight: bold;
@@ -144,7 +145,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-/* Наши проекты */
+/* ======== НАШИ ПРОЕКТЫ ======== */
 
 .project .title {
   color: var(--primary-text-color);
@@ -156,10 +157,12 @@ body {
 
 .project .text {
   font-size: 16px;
+  font-weight: normal;
   line-height: 1.9;
+  letter-spacing: 0.03em;
 }
 
-/* чем мы занимаемся */
+/* ======== ЧЕМ МЫ ЗАНИМАЕМСЯ ======== */
 
 .work-title {
   font-weight: bold;
@@ -169,7 +172,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-/* Наша команда */
+/* ======== НАША КОМАНДА ======== */
 
 .team {
   background-color: var(--background-color);
@@ -189,12 +192,13 @@ body {
   letter-spacing: 0.03em;
 }
 .team .text {
+  font-size: 16px;
   font-weight: normal;
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
 }
-/* подвал */
+/* ======== ПОДВАЛ ======== */
 
 .bot {
   background-color: #2f303a;
